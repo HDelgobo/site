@@ -1,0 +1,8 @@
+.editar_perfil{
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+}
+
+.menu_perfil {
+    padding: 10px;
+    text-align: left;
+}

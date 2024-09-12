@@ -1,0 +1,25 @@
+.container_login{
+    width: 100%;
+    max-width: 400px; /* Reduz a largura máxima do contêiner para centralizar melhor */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Adiciona um fundo ao contêiner para destacar o formulário */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+}
+
+.botao-prosseguir {
+    padding: 10px 0;
+    background-color: #696969; /* Cor de fundo cinza */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}

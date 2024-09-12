@@ -1,0 +1,23 @@
+.cadastro_assinante{
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+}
+
+.form-cadastro{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botao-prosseguir {
+    padding: 10px 0;
+    background-color: #696969; /* Cor de fundo cinza */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.botao-prosseguir:hover {
+    background-color: #808080; /* Mudança de cor ao passar o mouse */
+}

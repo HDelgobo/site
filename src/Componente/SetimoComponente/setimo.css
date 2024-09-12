@@ -1,0 +1,30 @@
+.inicio_noticia{
+    background-color: #000000;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+}
+
+.titulo-site {
+    margin: 0;
+    font-size: 2em;
+}
+
+.noticias-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.noticia {
+    width: 100%;
+    max-width: 300px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}

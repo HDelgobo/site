@@ -1,0 +1,28 @@
+.leitor_jornalista {
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    display: flex;
+    justify-content: space-between; /* Posiciona os botões nas extremidades */
+    align-items: center; /* Centraliza os botões verticalmente */
+}
+
+.container_leitor_jornalista{
+    display: flex;
+    justify-content: space-between; /* Espaça os botões para os cantos esquerdo e direito */
+    width: 100%;
+    max-width: 600px; /* Define a largura máxima para o contêiner */
+    padding: 0 20px; /* Adiciona um pouco de espaço nas laterais */
+}
+
+.botoes_leitor_jornalista{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botao-leitor {
+    left: 20px; /* Posiciona o botão no lado esquerdo */
+}
+
+.botao-jornalista {
+    right: 20px; /* Posiciona o botão no lado direito */
+}
